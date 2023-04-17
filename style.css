@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.price {
+    margin: 50px auto;
+    padding: 50px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.amount{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.price span:nth-child(2){
+    color: cadetblue;
+    margin-left: 5px;
+}
+
+
+select{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+select:focus{
+    outline: none;
+}
+
+.price div{
+    width: 100%;
+}
+
+.amount:focus{
+    outline: none;
+}
+
+.price div{
+    margin: 10px;
+}
+
+.sar span{
+    color: cadetblue;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+opacity: .9;
+}
